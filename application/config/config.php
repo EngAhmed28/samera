@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
  /* $config['base_url'] = 'http://localhost/samera_1'; */
-$config['base_url'] = 'http://samerahail.org/';
+$config['base_url'] = 'http://localhost/samera/';
 /*
 |--------------------------------------------------------------------------
 | Index File

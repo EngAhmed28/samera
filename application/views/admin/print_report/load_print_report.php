@@ -9,14 +9,14 @@
         margin-bottom: 20px;
     }
 </style>
-<link rel="stylesheet" type="text/css" href="<?php echo base_url().'asisst/layout' ?>/bootstrap-arabic.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url().'asisst/admin_asset/css' ?>/bootstrap-arabic.min.css">
 <?php
 
 if((isset($records)&&$records!=null)){
-    echo '<div class="head" id="printdiv">
+    echo '<div class="" id="printdiv">
         <div class="container">
             <div class="col-xs-12">
-                <h5 class="text-center" style="margin-top:25px; margin-right: 86px;"><b> بسم الله الرحمن الرحيم </b></h5>
+                <h5 class="text-center" style="margin-top:25px; "><b> بسم الله الرحمن الرحيم </b></h5>
                 <div class="col-xs-4">
                     <h5 class="text-center" style="margin-top:0px; margin-bottom:5px;"> المملكة العربية السعودية </h5>
                     <h5 class="text-center" style="margin-top:0px; margin-bottom:5px;"> حائل مدينة سميراء   </h5>
@@ -122,5 +122,5 @@ else//{
     window.print();
     //Restore orignal HTML
     // document.body.innerHTML = oldPage;
-    setTimeout(function () {location.replace("<?php echo base_url('dashboard/print_report')?>");}, 500);
+    setTimeout(function () {location.replace("<?php /*echo base_url('dashboard/print_report')*/?>");}, 500);
 </script>
